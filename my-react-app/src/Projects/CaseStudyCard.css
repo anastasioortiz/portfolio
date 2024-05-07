@@ -1,0 +1,92 @@
+
+
+.project-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height:50vh;
+    width:50%;
+    background-color: #1CCAD8;
+}
+
+.photo-carousel{
+    background-color: #587291;
+    width:50%;
+    height: 80%;
+    margin-left: 10%;
+    overflow-x: scroll;
+    margin-right:2%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    box-shadow: inset;
+    box-shadow: 5px 5px 10px #587291;
+}
+
+.photo-carousel img{
+    width: 80%;
+    height: auto;
+    max-height: 100%;
+    border-radius: 0;
+}
+
+.left-side h2{
+    margin-left: 2%;
+    color:#587291;
+}
+
+.left-side{
+    width:40%;
+}
+
+.bullets{
+    list-style-type: none; /* removes default bullet points */
+    padding: 0;
+    font-family: 'Orbitron', monospace;
+    text-align: left;
+    margin: 20px;
+}
+
+.bullets li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f8ff; /* light background */
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* subtle shadow */
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease;
+}
+
+
+.bullets li:hover {
+    transform: scale(1.05); /* slightly enlarge on hover */
+    background-color: #b0e0e6; /* change color on hover */
+}
+
+.bullets li {
+    color: #2F97C1; /* tomato for odd items */
+    font-weight: bold; /* bold text */
+}
+
+#case-study-1{
+    background-color: antiquewhite;
+}
+
+#case-study-2{
+    background-color: #15E6CD;
+}
+
+.see-more-button {
+    border: 0px; /* Border style for the button */
+    color: #333; /* Text color */
+    padding: 10px 20px; /* Padding around the button text */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size for the button text */
+    transition: all 0.3s ease; /* Smooth transition effect for hover */
+    background-color: transparent;
+    opacity: 100%;
+}
+
+.see-more-button:hover {
+    opacity: 50%;
+}

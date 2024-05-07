@@ -1,0 +1,115 @@
+.homepage{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 100%;
+    min-height: 95vh;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    text-align: start; /* Center the text */
+    font-size: 30px; /* Adjust the font size as needed */
+    
+}
+
+.homepage b{
+    text-shadow: -1px -1px 0 #000,  
+                  1px -1px 0 #000,
+                 -1px  1px 0 #000,
+                  1px  1px 0 #000; /* Add an outline to the font */
+    color:#15E6CD;
+    font-size: 40px;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+
+.homepage p {
+    padding-bottom: 10%;
+    font-family:  monospace;
+    color: black;
+    word-spacing:normal;
+    align-content: end;
+}
+
+p .home-title{
+    display:flex;
+    justify-content: start;
+    align-self: end;
+    text-align: center;
+    
+}
+
+p #name b{
+    font-size: 60px;
+}
+
+.letter-image{
+    width:100%;
+    margin-right:0;
+    border: 2px black solid;
+}
+
+.falling-image-container {
+    position: relative;
+    width: 80px;
+    height: 80px; 
+    margin-bottom: 4px;
+  }
+  
+  .falling-image-container img {
+    position: absolute;
+    left: -100px; 
+    transition: transform 0.5s ease-in-out;
+    animation: bounce-in 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, bounce 0.5s ease-in-out 2s forwards;
+
+  }
+  
+  .falling-image-container:hover {
+    transform: rotate(360deg); 
+    transition: transform 0.5s ease-in-out;
+  }
+  #letter-b, #letter-d{
+    margin-left: 1%;
+
+  }
+
+  #letter-b{
+    width: 90px; 
+    height: 90px; 
+  }
+
+  #letter-d{
+    width: 60px; 
+    height: 60px; 
+  }
+
+  #letter-c{
+    margin-right: 1%;
+    width: 75px; 
+    height: 75px; 
+  }
+
+  #letter-a{
+    width: 100px; 
+    height: 100px; 
+    
+  }
+  
+
+  
+  @keyframes bounce-in {
+    0% {
+      left: -100px; /* Start outside the left side of the screen */
+      transform: rotate(0deg); /* Initial rotation */
+    }
+    100% {
+      left: 0; /* End at the left edge of the container */
+      transform: rotate(360deg); /* Final rotation */
+    }
+  }
+  
+
+  
+

@@ -1,0 +1,24 @@
+.Projects{
+    max-height: 100%;
+}
+
+.cardHolder{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.projects-description{
+    width:50%;
+    height:50vh;
+    background-color: #2F97C1;
+    text-align: start;
+}
+
+.projects-description h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text-holder{
+    margin-left: 3%;
+}
+

@@ -1,0 +1,41 @@
+[
+    {
+      "projectName": "Pokemon Team Builder",
+      "bullets": [
+        "Bullet point 1 for Project 1",
+        "Bullet point 2 for Project 1",
+        "Bullet point 3 for Project 1"
+      ],
+      "imagePaths": [
+        "./images/CaseStudies/dev1.png",
+        "./images/CaseStudies/dev2.png",
+        "./images/CaseStudies/dev3.png",
+        "./images/CaseStudies/dev4.png",
+        "./images/CaseStudies/dev5.png"
+ 
+      ]
+    },
+    {
+      "projectName": "Project 2",
+      "bullets": [
+        "Bullet point 1 for Project 2",
+        "Bullet point 2 for Project 2",
+        "Bullet point 3 for Project 2"
+      ],
+      "imagePaths": [
+
+      ]
+    },
+    {
+      "projectName": "Forest Simulation",
+      "bullets": [
+        "Bullet point 1 for Project 3",
+        "Bullet point 2 for Project 3",
+        "Bullet point 3 for Project 3"
+      ],
+      "imagePaths": [
+
+      ]
+    }
+  ]
+  
