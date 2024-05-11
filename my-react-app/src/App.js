@@ -37,7 +37,7 @@ function App() {
     <div className="App">
       <nav className="navBar">
       <button className="nav-button" href="#home" id="home-button" onClick={() => setCurrentPage('home')}>
-            <p>Home</p>
+            <p>home</p>
           </button>
       </nav>
       <div className="rendered-page">

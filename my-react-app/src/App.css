@@ -29,11 +29,10 @@
 .navBar{
   display: flex;
   flex-direction: row;
-  justify-content: start;
-  align-content: start;
+  justify-content: center;
+  align-content: center;
   height: 10vh;
   min-width: 140px;
-  margin-left:8%;
 
 
   
