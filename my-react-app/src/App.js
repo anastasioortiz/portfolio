@@ -19,11 +19,9 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'projects':
-        return <Projects setCurrentPage={setCurrentPage} />;
+        return 
         case 'home':
-          return <Home/>;
-          case 'about-me':
-            return <AboutMe />;
+          return <Home setCurrentPage={setCurrentPage}/>;
             case 'case-study-1':
             return <Development />;
           case 'case-study-2':
@@ -38,12 +36,9 @@ function App() {
     
     <div className="App">
       <nav className="navBar">
-      <button className="nav-button" id="home-button" onClick={() => setCurrentPage('home')}>
+      <button className="nav-button" href="#home" id="home-button" onClick={() => setCurrentPage('home')}>
             <p>Home</p>
           </button>
-        <button  className="nav-button" id="about-me-button" onClick={() => setCurrentPage('about-me')}><p>About Me</p></button>
-          
-          <button className="nav-button" id="project-button" onClick={() => setCurrentPage('projects')}><p>Projects</p></button>
       </nav>
       <div className="rendered-page">
       {renderPage()}

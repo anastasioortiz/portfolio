@@ -1,6 +1,8 @@
 import "./CaseStudy.css";
 
 const forestVideo = "./" + process.env.PUBLIC_URL + "/images/CaseStudies/forest/forestDemo.mp4";
+const raytracer = "./" + process.env.PUBLIC_URL + "/images/CaseStudies/forest/raytracer.png";
+
 
 function ForestGenerator () {
     return(
@@ -10,7 +12,21 @@ function ForestGenerator () {
             <div className="subsection">
                 <h2> Conceptualizing a Simulator</h2>
                 <p>
-                    
+                Born in the digital age, my peers and I spent countless hours navigating various digital landscapes. Inspired by our experiences, a small group of us envisioned crafting our own virtual environment—one that mirrored the infinite and unpredictable nature of nature itself. Motivated by this vision and a desire to deepen our understanding of computer graphics, we embarked on a project to create a <b>procedurally generated forest environment</b>. This initiative wasn't just about building a digital space; it was about pushing the limits of what we could achieve with technology and expanding our knowledge in a tangible, impactful way.                </p>
+            </div>
+
+            <div className="subsection">
+                <h2>Building a Ray Tracer</h2>
+                <p>
+
+As we ventured deeper into the project, the need for a tool that could realistically render our expansive forest became apparent. I developed a ray tracer—a program capable of simulating and tracing the paths of light as they interact with virtual objects, creating realistic images. I started with the basic principles of ray tracing, gradually layering on complexities such as lighting for wchih I used the <b>Phong Illumination Model</b> accounting for ligth reflection, refraction, and shadows. To truly see our forest come to life, I experimented extensively, using JSON files to manage and test different environmental configurations. 
+                </p>
+            </div>
+
+            <div className="image-holder">
+                <img src={raytracer} alt="raytraced-img"/>
+                <p>
+                    Rendering of lots spheres using the raytracer.
                 </p>
             </div>
 
@@ -73,6 +89,18 @@ function ForestGenerator () {
                 <p>
                     For this project I worked with two other team developers. One of them focused on the generation of trees, while the other one focused on the water. My role was to create the terrain and chunk generation with trees and ponds.
                      Together we worked on the raytracer and filters.
+                </p>
+            </div>
+
+            <div className="subsection">
+
+                <h2> Learning Insights </h2>
+                <p>
+                Throughout this project, our journey from conceptualization to implementation has been rich with learnings and insights. One of the most significant takeaways was the <a>importance of flexibility and adaptation in digital creation</a>. The ability to manipulate and fine-tune our virtual environment using JSON files proved crucial, as it allowed us to experiment with various scenarios and instantly see the results of our modifications. This iterative process not only perfected our forest simulation but also reinforced the importance of a dynamic workflow in digital design.
+
+                Additionally, the project underscored the value of collaboration and the sharing of expertise. Working closely with my teammates, each focusing on different aspects of the environment, enriched the project and expanded our collective skill set. We learned to integrate diverse components seamlessly, from terrain generation to lighting effects, creating a cohesive and immersive experience.
+
+                This endeavor has not only pushed the boundaries of what we can create in a virtual space but also deepened our appreciation for the complexities of natural environments. The skills and insights gained from this project will undoubtedly influence our future work, driving us to explore new possibilities in the realm of digital simulation and design.
                 </p>
             </div>
             

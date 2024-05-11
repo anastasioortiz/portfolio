@@ -1,13 +1,41 @@
-.about-me{
+#about-me{
     display:flex;
     flex-direction: row;
-    width: 80%;
+    width: 90%;
     height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     justify-content: center;
     align-content: center;
 }
 
 #profile-pic{
-    width:50%;
-    border-radius: 40%;
+    width: 80%;
+    margin-right:20%;
+    border-radius: 50%;
+}
+
+.left-side-about-me{
+    width:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side-about-me{
+    width: 60%;
+    
+}
+
+.right-side-about-me p{
+    font-family: arial;
+}
+
+.right-side-about-me h2{
+    font-family: "Bubblegum Sans";
+    color:#1CCAD8;
+    text-shadow: -1px -1px 0 #000,  
+                  1px -1px 0 #000,
+                 -1px  1px 0 #000,
+                  1px  1px 0 #000; 
 }

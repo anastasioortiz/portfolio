@@ -1,21 +1,21 @@
-.homepage{
-    margin-left: 5%;
-    margin-top: 5%;
+#home{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     min-height: 95vh;
     display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
-    text-align: start; /* Center the text */
-    font-size: 30px; /* Adjust the font size as needed */
+    justify-content: center; 
+    align-items: center; 
+    text-align: start; 
+    font-size: 30px; 
     
 }
 
-.homepage b{
+#home b{
     text-shadow: -1px -1px 0 #000,  
                   1px -1px 0 #000,
                  -1px  1px 0 #000,
-                  1px  1px 0 #000; /* Add an outline to the font */
+                  1px  1px 0 #000; 
     color:#15E6CD;
     font-size: 40px;
     margin: 0;
@@ -23,12 +23,20 @@
     
 }
 
+.phrase-container{
+    display:block;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 
-.homepage p {
+
+#home p {
     padding-bottom: 10%;
     font-family:  monospace;
-    color: black;
+    color: white;
     word-spacing:normal;
     align-content: end;
 }
@@ -38,11 +46,24 @@ p .home-title{
     justify-content: start;
     align-self: end;
     text-align: center;
+    width: 80%;
     
 }
 
 p #name b{
+    font-size: 40px;
+    
+    
+}
+
+p #my-name{
     font-size: 60px;
+    color:orange;
+    
+}
+
+.homepage p:hover{
+  animation: shake 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
 }
 
 .letter-image{
@@ -53,63 +74,32 @@ p #name b{
 
 .falling-image-container {
     position: relative;
-    width: 80px;
-    height: 80px; 
     margin-bottom: 4px;
   }
   
-  .falling-image-container img {
-    position: absolute;
-    left: -100px; 
+  .falling-image-container p {
+    /* position: absolute; */
+    left: -400px; 
+    top: -600px;
     transition: transform 0.5s ease-in-out;
     animation: bounce-in 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, bounce 0.5s ease-in-out 2s forwards;
 
   }
   
   .falling-image-container:hover {
-    transform: rotate(360deg); 
-    transition: transform 0.5s ease-in-out;
-  }
-  #letter-b, #letter-d{
-    margin-left: 1%;
-
-  }
-
-  #letter-b{
-    width: 90px; 
-    height: 90px; 
-  }
-
-  #letter-d{
-    width: 60px; 
-    height: 60px; 
-  }
-
-  #letter-c{
-    margin-right: 1%;
-    width: 75px; 
-    height: 75px; 
-  }
-
-  #letter-a{
-    width: 100px; 
-    height: 100px; 
+    animation: shake 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
     
-  }
-  
 
-  
-  @keyframes bounce-in {
-    0% {
-      left: -100px; /* Start outside the left side of the screen */
-      transform: rotate(0deg); /* Initial rotation */
-    }
-    100% {
-      left: 0; /* End at the left edge of the container */
-      transform: rotate(360deg); /* Final rotation */
-    }
   }
-  
+
+
+
+
+
+
+
+
+
 
   
 

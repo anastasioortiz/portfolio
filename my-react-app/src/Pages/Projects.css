@@ -1,24 +1,27 @@
-.Projects{
+#projects{
     max-height: 100%;
 }
 
 .cardHolder{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-}
-.projects-description{
-    width:50%;
-    height:50vh;
-    background-color: #2F97C1;
-    text-align: start;
-}
-
-.projects-description h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .text-holder{
     margin-left: 3%;
 }
+
+.top-side{
+    display:flex;
+    flex-direction: row;
+}
+
+h1{
+    color:orange;
+    font-family: "Bubblegum Sans";
+    margin-left: 5%;
+}
+
+
 

@@ -1,40 +1,26 @@
 [
     {
-      "projectName": "Pokemon Team Builder",
+      "projectName": "Creating a Pokemon Team Builder",
       "bullets": [
-        "Bullet point 1 for Project 1",
-        "Bullet point 2 for Project 1",
-        "Bullet point 3 for Project 1"
-      ],
-      "imagePaths": [
-        "./images/CaseStudies/dev1.png",
-        "./images/CaseStudies/dev2.png",
-        "./images/CaseStudies/dev3.png",
-        "./images/CaseStudies/dev4.png",
-        "./images/CaseStudies/dev5.png"
- 
+        "Built a web-app in React that allows users to build pokemon team",
+        "Utilized sorting to facilitate viewing",
+        "Implemented filters to improve users' searching experience"
       ]
     },
     {
-      "projectName": "Project 2",
+      "projectName": "Revamping Partiful Settings",
       "bullets": [
-        "Bullet point 1 for Project 2",
-        "Bullet point 2 for Project 2",
-        "Bullet point 3 for Project 2"
-      ],
-      "imagePaths": [
-
+        "Worked with Partiful to redesgin their settings menu",
+        "Collaborated with 3 other desginers to make interface intuitive",
+        "Redesgined their settings based to make it more user-friendly "
       ]
     },
     {
-      "projectName": "Forest Simulation",
+      "projectName": "Building a Forest Simulation",
       "bullets": [
-        "Bullet point 1 for Project 3",
-        "Bullet point 2 for Project 3",
-        "Bullet point 3 for Project 3"
-      ],
-      "imagePaths": [
-
+        "Created a 3D forest generator by building raytracing software C++",
+        "Worked with a team of 2 other engineers to create filters and shaders",
+        "Implemented a chunk-based, procedurally generated environment"
       ]
     }
   ]

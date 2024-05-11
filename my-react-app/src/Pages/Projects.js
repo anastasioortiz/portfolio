@@ -9,16 +9,8 @@ import "./Projects.css"
 function Projects ({setCurrentPage}) {
 
     return(
-        <div className="Projects">
+        <div id="projects">
             <div className="cardHolder">
-                <div className="projects-description">
-                    <div className="text-holder">
-                        <h1> Projects </h1>
-                        <p>
-                            These are my very cool project that are very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very cool.
-                        </p>
-                    </div>
-                </div>
 
                      {caseSummaries.map((item, index) => { 
                   return(

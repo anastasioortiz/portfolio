@@ -14,17 +14,13 @@ function Development () {
                 <h1 id="pokemon-header-2">–But You Can't Toss 'Em All into Battle!</h1>
             </div>
             <div className="subsection">
-                <h2>Pokémon Champion Begginings</h2>
+                <h2>Planning in Pokemon </h2>
                 <p> 
                 Whether you’re a ten-year-old unwrapping your first gaming console or a twenty-six-year-old reminiscing about the good old days, Pokémon remains a cultural icon in the world of gaming. Like many fans, I've dived deep into the Pokémon universe, a place where whimsical creatures abound, each eager to be part of a team.
+                While the famous motto Gotta Catch 'Em All captures the essence of Pokémon for many, there's a more complex layer to the experience—building your own team. This involves not just collection but also strategy: understanding intricate rules, and crafting a lineup that resonates with your style. 
                 </p>
             </div>
 
-            <div className="subsection">
-                <h2>Planning Makes Perfect</h2>
-                <p> 
-                While the famous motto Gotta Catch 'Em All captures the essence of Pokémon for many, there's a more complex layer to the experience—building your own team. This involves not just collection but also strategy: understanding intricate rules, and crafting a lineup that resonates with your style. </p>
-            </div>
             <div className="image-holder">
                 <img src={ashKetchum} alt="ash"/>
                 <p>
@@ -47,7 +43,7 @@ function Development () {
             <div className="subsection">
                 <h2>Finding the optimal team building formula</h2>
                 <p> 
-                Addressing the complexities of team composition, my project, the Pokémon Team Builder, was designed to simplify and optimize this process. Utilizing a mix of data analysis and user-friendly design, the Team Builder helps players identify potential synergies and gaps in their lineup. By inputting desired Pokémon or selecting specific roles they need to fill, users can receive suggestions based on statistical effectiveness and compatibility. This tool leverages algorithmic insights to recommend configurations that not only meet the strategic demands of the game but also align with the player’s personal preferences and playstyle. The goal? To make the daunting task of team planning both accessible and enjoyable, ensuring every trainer can step into battle with confidence.                </p>
+                Addressing the complexities of team composition, my project, the Pokémon Team Builder, was conceived to simplify and optimize this process. Utilizing a mix of data analysis and user-friendly design, the Team Builder helps players aimed to identify potential synergies and gaps in their lineup. By inputting desired Pokémon or selecting specific roles they need to fill, users would have the capcity to sift through options and make decisions on whatever criteria they deemed important.     </p>
             </div>
 
             <div className="showcase">
@@ -55,7 +51,7 @@ function Development () {
 
                 <div className="showcase-subsection">
                 <p> 
-                    In order to design a team builder I first needed to understand what players' take into account when building a team. Below is a mock up of what three different types of players decision making when adding a new team member would look like. 
+                    In order to design a team builder I first needed to understand what players' take into account when building a team. Below is a mock up of what three different types of players' decision making when adding a new team member would look like. 
                 </p>
                     
           
@@ -69,7 +65,7 @@ function Development () {
             <div className="subsection">
                 <h2>The Pokemon Team Builder</h2>
                 <p> 
-                    The Pokemon Team Builder is desgined to facilitate the comparison of Pokémon to Pokémon, by using filters and sorters so that users can look for specific pokemon typings and sort through stats, entry number and even alphabetical ordering. 
+                    The Pokemon Team Builder, featured below, is desgined to facilitate the comparison of Pokémon to Pokémon, by using filters and sorters so that users can look for specific pokemon typings and sort through stats, entry number and even alphabetical ordering. 
                 </p>
                 <div className="left-right-subsection">
                     <div className="left-subsection">
@@ -82,6 +78,7 @@ function Development () {
                     </div>
                     <div className="right-subsection">
                         <img src={website} alt="website pic" id="website-pic"/>
+                        
                     </div>
                     </div>
             </div>
@@ -91,9 +88,10 @@ function Development () {
 `            <div className="subsection">
                 <h2>Takeaways</h2>
                 <p> 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem viverra aliquet eget sit amet tellus cras. Maecenas accumsan lacus vel facilisis volutpat est velit egestas. Justo eget magna fermentum iaculis eu. Sodales neque sodales ut etiam sit amet nisl purus. Proin sed libero enim sed faucibus turpis in eu mi. Mollis nunc sed id semper risus in hendrerit. Tellus id interdum velit laoreet id donec ultrices. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Est ullamcorper eget nulla facilisi. Nulla aliquet porttitor lacus luctus accumsan tortor. Egestas sed tempus urna et pharetra pharetra massa. Bibendum enim facilisis gravida neque convallis a cras semper. Amet risus nullam eget felis eget nunc lobortis mattis. Vel risus commodo viverra maecenas. Scelerisque purus semper eget duis at tellus at urna condimentum. Interdum velit euismod in pellentesque massa.
+                    From this project, I managed to weave my web application development skills in React along with my pasion for strategy games. Once I began conceptualizing this project, it became clear how important it was to take into account all types of players and what they would look for in a tool like this. I learned how to balance using an intuitive design that leveraged Pokemon knowledge without making an over complicated tool that might be just have been appealing to hardcore players.
                 </p>
             </div>
+            <br></br>
         </div>
     );
 }

@@ -4,37 +4,42 @@ import React, { useState, useEffect } from 'react';
 
 
 function CaseStudyCard (props){
-    props.imagePaths.forEach((item) => {
-        item = "./" + process.env.PUBLIC_URL + props.imagePaths;
-    });
+    const [isShowing, setIsShowing] = useState(false);
 
-    //This switches the images in the carousel
-    const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCurrentImageIndex(prevIndex => (prevIndex + 1) % props.imagePaths.length);
-    }, 5000); 
-
-    return () => clearInterval(intervalId);
-  }, [props.imagePaths.length]);
+    const toggleIsShowing = () => {
+        setIsShowing(!isShowing);
+    };
 
 
     return(
-    <div className="project-card" id={props.id}>
-      <div className="left-side">
-        <h2>{props.projectName}</h2>
-        <ul className="bullets">
-            {props.bullets.map((bullet, index) => (
-            <li key={index}>{bullet}</li>
-            ))}
-        </ul>
-        <button className="see-more-button" onClick={() => props.setCurrentPage(props.case)}> 
-            see more &rarr;
-        </button>
-      </div>
-      <div className="photo-carousel">
-          <img src={props.imagePaths[currentImageIndex]} alt={props.imagePaths[currentImageIndex]} />
-      </div>
+        <div className="case-study" id={props.id}>
+        <div className="top-side">
+            <div className="header-holder">
+                <h2>{props.projectName}</h2>
+            </div>
+            <div className="button-holder">
+                <button onClick={toggleIsShowing}>
+                    {isShowing ? '-' : '+'}
+                </button>
+            </div>
+       </div>
+       {isShowing ? (
+    <div className="project-card" >
+        <div className="left-side">
+            <ul className="bullets">
+                {props.bullets.map((bullet, index) => (
+                    <li key={index}>
+                        {bullet}
+                    </li>
+                ))}
+            </ul>
+            
+        </div>
+        <button className="see-more-button" onClick={() => props.setCurrentPage(props.case)}>
+                see more &rarr;
+            </button>
+    </div>
+) : null}
     </div>
     );
 }
